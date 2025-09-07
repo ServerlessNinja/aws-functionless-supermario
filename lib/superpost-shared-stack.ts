@@ -52,7 +52,9 @@ export class SuperPostSharedStack extends cdk.Stack {
       tableClass: dynamodb.TableClass.STANDARD_INFREQUENT_ACCESS,
       removalPolicy: cdk.RemovalPolicy.DESTROY,
       deletionProtection: false,
-      pointInTimeRecovery: false,
+      pointInTimeRecoverySpecification: {
+        pointInTimeRecoveryEnabled: false,
+      },
       replicas: [
         { region: regions.secondary }
       ],
@@ -69,7 +71,9 @@ export class SuperPostSharedStack extends cdk.Stack {
       tableClass: dynamodb.TableClass.STANDARD_INFREQUENT_ACCESS,
       removalPolicy: cdk.RemovalPolicy.DESTROY,
       deletionProtection: false,
-      pointInTimeRecovery: false,
+      pointInTimeRecoverySpecification: {
+        pointInTimeRecoveryEnabled: false,
+      },
       replicas: [
         { region: regions.secondary }
       ],
