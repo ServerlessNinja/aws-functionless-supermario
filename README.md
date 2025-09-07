@@ -73,3 +73,6 @@ npm run event
 * `cdk deploy --all`      deploys all stacks to your default AWS account
 * `npm run event`         sends custom event to start automation
 * `cdk destroy --all`     destroys all stacks from your AWS account
+
+---
+<sup> Super Mario, Princess Peach, and related characters, images, and design elements are &copy; Nintendo. Used here for non-commercial, educational presentation. Not affiliated with or endorsed by Nintendo.</sup>
