@@ -1,4 +1,4 @@
-# Super Mario Love Letters
+# Super Mario Post
 
 Sample functionless application running with help of AWS services like EventBridge, Step Functions, DynamoDB, and without Lambda.
 
